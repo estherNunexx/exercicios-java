@@ -1,2 +1,2 @@
 # exercicios-java
-Exercícios de Java desenvolvidos para estudo
+Exercícios de Java desenvolvidos para estudo e aprendizagem
