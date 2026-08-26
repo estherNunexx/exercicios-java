@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MediaSimples {
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in);
+        try (Scanner entrada = new Scanner(System.in)) {
 
         System.out.print("Digite a primeira nota: ");
         double nota1 = entrada.nextDouble();
@@ -20,4 +20,6 @@ public class MediaSimples {
 
         entrada.close();
     }
+}
+
 }
