@@ -13,7 +13,7 @@ public class CatalogoService {
 
         if (p == null) {
             throw new IllegalArgumentException(
-                    "Não é permitido cadastrar um produto nulo."
+                    "Não é permitido cadastrar um produto nulo"
             );
         }
 
@@ -31,7 +31,7 @@ public class CatalogoService {
 
         if (produtos.isEmpty()) {
             throw new IllegalStateException(
-                    "O catálogo está vazio."
+                    "O catálogo está vazio"
             );
         }
 
@@ -48,7 +48,7 @@ public class CatalogoService {
 
         if (codigo == null || codigo.trim().isEmpty()) {
             throw new IllegalArgumentException(
-                    "O código do produto é obrigatório."
+                    "O código do produto é obrigatório"
             );
         }
 
@@ -59,7 +59,7 @@ public class CatalogoService {
     public void ordenarPorPreco() {
         if (produtos.isEmpty()) {
             throw new IllegalStateException(
-                    "Não é possível ordenar um catálogo vazio."
+                    "Não é possível ordenar um catálogo vazio"
             );
         }
 
